@@ -35,5 +35,6 @@ set the project :
   email02 shows two possible categorizations: Endocrine Conditions and Diabetes.
   email03 doesn't specify any particular condition.
   Review the original emails from the directory navigation on the left, under the emails folder. Can you observe any patterns or make additional inferences based on the results?
+![image](https://github.com/rameshjoshi/ml-model-google-natural-language-api/assets/7277702/2cb31205-fa36-4738-b06f-0cb72fb20328)
 
 
