@@ -1,0 +1,1 @@
+{"email02.txt": {"/Health/Health Conditions/Endocrine Conditions": 0.800000011920929, "/Health/Health Conditions/Diabetes": 0.75}, "email03.txt": {"/Health/Health Conditions": 0.7699999809265137}, "email01.txt": {"/Health/Health Conditions/Arthritis": 0.949999988079071}}

@@ -33,11 +33,24 @@ set the project :
   Observe that three indexed texts were also found. Observe that the emails have a higher similarity rating for this category than the previous query.
   
   Go back to the Cloud Editor, and review the categorizations for the emails in the index.json file:
-  
+
+   #Observe a new file, index.json, was created and contains the text.
   email01 specifies only Arthritis.
   email02 shows two possible categorizations: Endocrine Conditions and Diabetes.
   email03 doesn't specify any particular condition.
   Review the original emails from the directory navigation on the left, under the emails folder. Can you observe any patterns or make additional inferences based on the results?
 ![image](https://github.com/rameshjoshi/ml-model-google-natural-language-api/assets/7277702/2cb31205-fa36-4738-b06f-0cb72fb20328)
+
+
+# Steps to Create Index:
+1. export GOOGLE_APPLICATION_CREDENTIALS="sa-key.json"
+2. python classify_text_tutorial.py index emails
+   Observe a new file, index.json, was created and contains the text.
+
+# Query the Index
+1. python classify_text_tutorial.py query-category index.json "Health/Health Conditions/Arthritis"
+         Observe that three indexed texts were found. Observe the similarity ratings, with email01 having the highest similarity.
+2. python classify_text_tutorial.py query-category index.json "Health/Health Conditions/Diabetes"
+        Observe that three indexed texts were also found. Observe that the emails have a higher similarity rating for this category than the previous query.
 
 
