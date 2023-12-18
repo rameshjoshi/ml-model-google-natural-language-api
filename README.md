@@ -1,3 +1,6 @@
+**Use Case** 
+You’re working in the IT department of a major metropolitan hospital and have been assigned the job of helping to manage the high volume of email requests by routing the emails to the proper medical department. You decide to test the viability of a system using the Natural Language API to index and then query a number of example emails.
+
 # ml-model-google-natural-language-api
 
 **Enable the API**
